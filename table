@@ -1,0 +1,60 @@
+<!doctype html>
+
+<table>
+    <tbody>
+    <tr>
+        <th>&&</th>
+        <th><?php echo (int)true; ?></th>
+        <th><?php echo (int)false; ?></th>
+    </tr>
+    <tr>
+        <td><?php echo (int)true; ?></td>
+        <td><?php echo (int)(true && true); ?></td>
+        <td><?php echo (int)(true && false); ?></td>
+    </tr>
+    <tr>
+        <td><?php echo (int)false; ?></td>
+        <td><?php echo (int)(false && true); ?></td>
+        <td><?php echo (int)(false && false); ?></td>
+    </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+    <tr>
+        <th>||</th>
+        <th><?php echo (int)true; ?></th>
+        <th><?php echo (int)false; ?></th>
+    </tr>
+    <tr>
+        <td><?php echo (int)true; ?></td>
+        <td><?php echo (int)(true || true); ?></td>
+        <td><?php echo (int)(true || false); ?></td>
+    </tr>
+    <tr>
+        <td><?php echo (int)false; ?></td>
+        <td><?php echo (int)(false || true); ?></td>
+        <td><?php echo (int)(false || false); ?></td>
+    </tr>
+    </tbody>
+</table>
+<table>
+    <tbody>
+    <tr>
+        <th>xor</th>
+        <th><?php echo (int)true; ?></th>
+        <th><?php echo (int)false; ?></th>
+    </tr>
+    <tr>
+        <td><?php echo (int)true; ?></td>
+        <td><?php echo (int)(true xor true); ?></td>
+        <td><?php echo (int)(true xor false); ?></td>
+    </tr>
+    <tr>
+        <td><?php echo (int)false; ?></td>
+        <td><?php echo (int)(false xor true); ?></td>
+        <td><?php echo (int)(false xor false); ?></td>
+    </tr>
+    </tbody>
+</table>
+</doctypehtml>
